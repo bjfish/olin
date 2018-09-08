@@ -9,6 +9,6 @@ import (
 )
 
 func main() {
-	fd := dagger.OpenFile("fd://1", 0)
+	fd := dagger.OpenFile("fd://1")
 	println(strconv.Itoa(int(fd)))
 }
